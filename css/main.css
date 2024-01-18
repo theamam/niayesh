@@ -7433,6 +7433,7 @@ ul li a:hover {
   height: 100%;
   z-index: 1;
   background-image: url(../images/tehran1.jpg);
+  direction: ltr;
 }
 
 .cc-contact-information .cc-contact {
@@ -7481,6 +7482,7 @@ a.credit {
   font-family: yekan;
   text-align: center;
   align-items: center;
+  scroll-behavior: smooth;
 }
 body {
   font-family: yekan;
