@@ -8113,6 +8113,7 @@ footer {
   border: none;
   text-align: center;
   justify-content: center;
+  display: inline;
 }
 
 .b-msfs:hover {
