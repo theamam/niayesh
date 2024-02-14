@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: yekan;
+  src: url("../fonts/Yekan\ Bakh\ Fa-En\ 06\ Bold.woff");
+}
+body {
+  font-family: yekan;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6e93f7;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ab1414;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+}
+
+nav.sticky {
+  padding: 3px 0;
+  border-radius: 35px;
+  height: 57px;
+  width: 98%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  right: 10px;
+}
+.navbar {
+  background: #ab1414;
+  padding: 13px 0;
+  border-radius: 35px;
+  height: 57px;
+  width: 98%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  right: 10px;
+}
+
+.navbar .menu a:hover {
+  color: #111420;
+  font-size: 19px;
+}
+nav.sticky:hover {
+  color: #ab1414;
+  font-size: 19px;
+}
+
+nav .navbar {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+nav .navbar .logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color: #4070f4;
+}
+
+nav.sticky .navbar .logo a {
+  color: #fff;
+}
+
+nav .navbar .menu {
+  display: flex;
+  position: relative;
+}
+
+nav .navbar .menu li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+.navbar .menu a {
+  font-size: 16px;
+  color: white;
+  padding: 6px 0;
+  transition: all 0.4s ease;
+}
+
+nav.sticky .menu a {
+  color: #fff;
+}
+
+nav.sticky .menu a:hover {
+  color: #0e2431;
+}
+
+.navbar .media-icons a {
+  color: #4070f4;
+  font-size: 18px;
+  margin: 0 6px;
+}
+
+nav.sticky .media-icons a {
+  color: #fff;
+}
+
+/* Side Navigation Menu Button CSS */
+
+nav .menu-btn,
+.navbar .menu .cancel-btn {
+  position: absolute;
+  color: #fff;
+  right: 30px;
+  top: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
+
+nav .menu-btn {
+  color: #4070f4;
+}
+
+nav.sticky .menu-btn {
+  color: #fff;
+}
+
+.navbar .menu .menu-btn {
+  color: #fff;
+}
+.navbar .media-icons a {
+  color: #4070f4;
+  font-size: 14px;
+  margin: 0 6px;
+}
+
+nav.sticky .media-icons a {
+  color: #fff;
+}
+.button-h {
+  font-family: yekan;
+  background-color: #084569;
+  color: #f1f1f1;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  margin: 3px;
+  border: none;
+  text-align: center;
+  vertical-align: center;
+  transition: all 500ms linear;
+}
+.button-h:hover {
+  background-color: yellow;
+  color: #0e2431;
+  width: 100px;
+  border: #6e93f7;
+  direction: ltr;
+  display: inline-block;
+}
+.header-logo {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  width: 75px;
+  display: inline;
+}
+.header-logo-text {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: inline;
+  left: 50px;
+}
+/* end of navbar */
+.header {
+  padding: 150px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url("../image/back.png");
+}
+.title-page {
+  position: absolute;
+  display: inline;
+  font-size: 35px;
+  right: 50px;
+}
