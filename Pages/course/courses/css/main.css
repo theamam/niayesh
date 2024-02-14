@@ -189,13 +189,6 @@ nav.sticky .media-icons a {
   width: 75px;
   display: inline;
 }
-.header-logo-text {
-  position: absolute;
-  text-align: center;
-  justify-content: center;
-  display: inline;
-  left: 50px;
-}
 /* end of navbar */
 .header {
   padding: 150px;
