@@ -5,6 +5,11 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
+  font-family: yekan;
+}
+@font-face {
+  font-family: yekan;
+  src: url("../fonts/Yekan\ Bakh\ Fa-En\ 06\ Bold.woff");
 }
 body {
   font-family: yekan;
@@ -35,6 +40,7 @@ nav {
   transition: all 0.3s ease;
   justify-content: center;
   text-align: center;
+  font-weight: 700;
 }
 
 nav.sticky {
