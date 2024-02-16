@@ -101,7 +101,7 @@ nav .navbar .menu li {
 }
 
 .navbar .menu a {
-  font-size: 16px;
+  font-size: 15px;
   color: white;
   padding: 6px 0;
   transition: all 0.4s ease;
@@ -178,6 +178,20 @@ nav.sticky .media-icons a {
   border: #6e93f7;
   direction: ltr;
   display: inline-block;
+}
+.button-h-cart {
+  background-color: #084569;
+  color: #f1f1f1;
+  border-radius: 10px;
+  width: 55px;
+  height: 30px;
+
+  border: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  transition: all 500ms linear;
 }
 
 /* end of navbar */
@@ -7669,7 +7683,7 @@ a {
 a:hover {
   color: green;
 }
-/* start footer code */
+/* footer code */
 :root {
   --footer-background: white;
   --text-color: #111420;
@@ -8102,6 +8116,7 @@ footer {
     }
   }
 }
+/* end of footer code */
 .b-msfs {
   position: relative;
   width: 180px;
