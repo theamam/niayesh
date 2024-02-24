@@ -8297,6 +8297,12 @@ footer {
 }
 
 @media (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  .matn-vasat {
+    width: 290px;
+  }
   .home .text-two {
     font-size: 55px;
   }
