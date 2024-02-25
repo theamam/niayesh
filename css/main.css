@@ -44,16 +44,12 @@ nav {
 }
 
 nav.sticky {
-  padding: 3px 0;
+  padding: 0;
   border-radius: 35px;
   height: 57px;
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-  right: 10px;
 }
 .navbar {
   background: #ab1414;
@@ -63,10 +59,6 @@ nav.sticky {
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-  right: 10px;
 }
 
 .navbar .menu a:hover {
@@ -8346,22 +8338,18 @@ footer {
     width: 100%;
   }
   .matn-vasat {
-    width: 192px;
+    bottom: 80px;
+    width: 220px;
+    right: -5px;
   }
-  .home .text-two {
-    font-size: 55px;
+  .cc-profile-image {
+    display: none;
   }
-  .home .text-three {
-    font-size: 33px;
-  }
-  .skills-details .boxes .per {
-    font-size: 50px;
-    color: #4070f4;
-    width: 100%;
-  }
-  .skills {
-    width: 100%;
-    height: 1200px;
+  nav {
+    font-size: 8px;
+    display: flex;
+    right: -67px;
+    width: 280px;
   }
 }
 @media (max-width: 924px) {
