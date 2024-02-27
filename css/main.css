@@ -53,6 +53,7 @@ nav.sticky {
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
+  top: 5px;
 }
 .navbar {
   background: #ab1414;
@@ -7737,7 +7738,7 @@ footer {
   flex-direction: column;
   max-width: 1320px;
   padding: 16px;
-  width: 85%;
+  width: 80%;
 }
 
 /*? top section */
