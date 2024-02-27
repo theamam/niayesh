@@ -62,6 +62,10 @@ nav.sticky {
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
 }
 
 .navbar .menu a:hover {
@@ -8337,13 +8341,13 @@ footer {
     height: 1200px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 320px) {
   body {
     width: 100%;
   }
   .matn-vasat {
     bottom: 80px;
-    width: 220px;
+    width: 300px;
     right: -5px;
   }
   .cc-profile-image {
@@ -8353,7 +8357,11 @@ footer {
     font-size: 8px;
     display: flex;
     right: 22px;
-    width: 260px;
+    width: 280px;
+  }
+  nav.sticky {
+    top: 8px;
+    right: 5px;
   }
 }
 @media (max-width: 924px) {
