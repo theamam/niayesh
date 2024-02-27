@@ -8341,7 +8341,7 @@ footer {
     height: 1200px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 320px) {
   body {
     width: 100%;
   }
