@@ -8364,6 +8364,29 @@ footer {
     right: 5px;
   }
 }
+@media (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+  .matn-vasat {
+    bottom: 80px;
+    width: 350px;
+    right: -1px;
+  }
+  .cc-profile-image {
+    display: none;
+  }
+  nav {
+    font-size: 8px;
+    display: flex;
+    right: 12px;
+    width: 350px;
+  }
+  nav.sticky {
+    top: 8px;
+    right: 5px;
+  }
+}
 @media (max-width: 924px) {
   nav.sticky {
     font-size: 8px;
