@@ -13,9 +13,11 @@
 }
 body {
   font-family: yekan;
+  scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
   width: 10px;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar-track {
@@ -31,7 +33,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #ab1414;
 }
-
+.li-menu {
+  cursor: pointer;
+}
 nav {
   position: fixed;
   width: 100%;
@@ -44,16 +48,13 @@ nav {
 }
 
 nav.sticky {
-  padding: 3px 0;
+  padding: 0;
   border-radius: 35px;
   height: 57px;
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-  right: 10px;
+  top: 5px;
 }
 .navbar {
   background: #ab1414;
@@ -63,10 +64,10 @@ nav.sticky {
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-  right: 10px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
 }
 
 .navbar .menu a:hover {
@@ -107,7 +108,7 @@ nav .navbar .menu li {
 }
 
 .navbar .menu a {
-  font-size: 15px;
+  font-size: 20px;
   color: white;
   padding: 6px 0;
   transition: all 0.4s ease;
@@ -184,6 +185,7 @@ nav.sticky .media-icons a {
   border: #6e93f7;
   direction: ltr;
   display: inline-block;
+  cursor: pointer;
 }
 .button-h-cart {
   background-color: #084569;
@@ -259,7 +261,6 @@ section.s-header {
     display: block;
   }
 }
-
 @media (max-width: 924px) {
   nav.sticky {
     font-size: 8px;
